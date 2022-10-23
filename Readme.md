@@ -1,0 +1,1 @@
+Olá! Esse é um projeto para aprendizado, utilizando HTML, CSS E JAVASCRIPT
