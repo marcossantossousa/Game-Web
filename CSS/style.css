@@ -8,9 +8,10 @@
     margin: auto;
     width: 80%;
     height: 500px;
-    border: 1px solid #444;
+    border-bottom: 15px solid rgb(35, 160, 35);
     position: relative;
     overflow: hidden;
+    background: linear-gradient(#87CEEB, #E0F6FF);
 }
 
 .pipe {
@@ -30,6 +31,12 @@
 
 .jump {
     animation: jump 500ms ease-out;
+}
+
+.clouds {
+    position: absolute;
+    width: 550px;
+    animation: clouds-animation 20s infinite linear;
 }
 
 @keyframes pipe-animation {
@@ -64,4 +71,13 @@
         bottom: 0;
     }
 
+}
+
+@keyframes clouds-animation{
+    from {
+        right: -550px;
+    }
+    to {
+        right: 100%;
+    }
 }
